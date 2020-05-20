@@ -1,0 +1,150 @@
+#car{
+    background:url(../img/back.png);
+    background-size: cover;
+    /* background-color: #00acee; */
+}
+body{
+    /* background-color: #00acee;     */
+}
+.navbar{
+    background-color: #00acee;
+}
+.card:hover{
+    /* background-color:rgba(148, 92, 39, 0.5); */
+    -webkit-box-shadow:-1px 9px 40px -12px rgba(148, 92, 39, 0.5);
+}
+.card{
+    border: none;
+}
+h6{
+    color:#fff;
+}
+.one{
+    color: #00acee;
+}
+#footer{
+    line-height: 15px;
+}
+
+.navbar-barnd, .nav-link{
+    color: white !important;
+}
+.nav-link{
+text-transform: uppercase;
+margin-right: 30px;
+}
+
+.nav-link:hover::after {
+   content: '';
+display: block;
+border-bottom: 3px solid blue;
+width: 50%;
+margin: auto;
+padding-bottom: 5px;
+margin-bottom: -8px;
+}
+
+.jumbotron {
+    background-image: url(/img/kartu_pra_kerja-04.png);
+    background-size: cover;
+    height: 740px;
+    text-align: center;
+    margin-top: 2%;
+}
+.jumbotron .display-4{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 200;
+}
+.jumbotron p{
+    color: white;
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 50px;
+}
+.jumbotron .display-4 span{
+    font-weight: 500;
+}
+hr {
+	width: 250px;
+	border-top: 3px solid rgba(216, 92, 20, 0.87);
+}
+body{
+    background-color: #bdc3c7;
+}
+/* body {
+    color: #566787;
+    background: #f5f5f5;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+} */
+.table-wrapper {
+    background: #fff;
+    padding: 20px 25px;
+    margin: 30px 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.table-title {
+    padding-bottom: 15px;
+    background: #299be4;
+    color: #fff;
+    padding: 16px 30px;
+    margin: -20px -25px 10px;
+    border-radius: 3px 3px 0 0;
+}
+.table-title h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+.table-title .btn {
+    color: #566787;
+    float: right;
+    font-size: 13px;
+    background: #fff;
+    border: none;
+    min-width: 50px;
+    border-radius: 2px;
+    border: none;
+    outline: none !important;
+    margin-left: 10px;
+}
+.table-title .btn:hover, .table-title .btn:focus {
+    color: #566787;
+    background: #f2f2f2;
+}
+.table-title .btn i {
+    float: left;
+    font-size: 21px;
+    margin-right: 5px;
+}
+.jumbotron1{
+    background-image: url(/img/kartu-prakerja.jpg);
+    background-size: cover;
+    height: 440px;
+    text-align: center;
+}
+.jumbotron1 .display-4{
+    color: blue;
+    text-align: left;
+    font-weight: 200;
+    padding-top: 118px;
+}
+.jumbotron1 .display-4 span{
+    font-weight: 500;
+}
+.jumbotron1 h4{
+    text-align: left;
+    color: blue;
+}
+.jumbotron1 h3{
+    text-align: left;
+    color: blue;
+}
+.email{
+    margin-left: 10%;
+}
+#btn{
+    margin-right: 900px;
+}
